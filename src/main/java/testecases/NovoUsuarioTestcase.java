@@ -17,10 +17,10 @@ public class NovoUsuarioTestcase {
 	@Before
     public void inicializa() {  
     System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\drivers\\geckodriver.exe");
-       this.driver = new FirefoxDriver(); 
-       this.novoUsuarioTasks = new NovoUsuarioTasks(driver);
-       driver.manage().deleteAllCookies();
-       driver.get("http://demo.virtuemart.net/account");
+    this.driver = new FirefoxDriver(); 
+     this.novoUsuarioTasks = new NovoUsuarioTasks(driver);
+     driver.manage().deleteAllCookies();
+     driver.get("http://demo.virtuemart.net/account");
     }
 	
 	@Test

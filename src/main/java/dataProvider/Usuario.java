@@ -2,20 +2,20 @@ package dataProvider;
 
 public class Usuario {
 
-	String displayedName;
+	String email;
 
-	public Usuario( String displayedName) {
+	public Usuario( String email) {
 		super();
 
-		this.displayedName = displayedName;
+		this.email = email;
 	}	
 
-	public String getDisplayedName() {
-		return displayedName;
+	public String getEmail() {
+		return email;
 	}
 	
-	public void setDisplayedName(String displayedName) {
-		this.displayedName = displayedName;
+	public void setDisplayedName(String email) {
+		this.email = email;
 	}
 	
 }

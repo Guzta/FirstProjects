@@ -19,7 +19,7 @@ public class NovoUsuarioTasks {
 	public void cadastra(Usuario usuario) throws InterruptedException {
 		Thread.sleep(5000);
 		//this.novoUsuarioAppObject.getGetContaTextField().sendKeys(usuario.getNome());
-		this.novoUsuarioAppObject.getDisplayedNameTextField().sendKeys(usuario.getDisplayedName());
+		this.novoUsuarioAppObject.getEmailTextField().sendKeys(usuario.getEmail());
 		
 	}	
 }
