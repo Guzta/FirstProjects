@@ -3,7 +3,7 @@ package tasks;
 import org.openqa.selenium.WebDriver;
 
 import appobjects.NovoUsuarioAppObject;
-import dataProvider.Usuario;
+import dataprovider.Usuario;
 
 public class NovoUsuarioTasks {
 	

@@ -1,4 +1,4 @@
-package dataProvider;
+package dataprovider;
 
 public class Usuario {
 
@@ -130,5 +130,7 @@ public class Usuario {
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
+	
+
 	
 }

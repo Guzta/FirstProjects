@@ -5,7 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import dataProvider.Usuario;
+
+import dataprovider.Usuario;
 import tasks.NovoUsuarioTasks;
 
 public class NovoUsuarioTestCase {
@@ -27,7 +28,7 @@ public class NovoUsuarioTestCase {
 		Usuario usuario1 = new Usuario("uol@sol", "Cyntrovisk", "Sim_Tra", "teste123", "teste123", "CBServer", 
 										"MaMeus", "NaoLee", "Rua", "zeroumdois", "poa");
 		this.novoUsuarioTasks.cadastrar(usuario1);
-	}
+	}	
 	
 	@After
 	public void finaliza() {
